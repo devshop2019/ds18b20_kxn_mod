@@ -1,0 +1,26 @@
+{
+    "name": "DS18B20_kxn_Mod",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "ds18b20": "github:Khuuxuanngoc/pxt-ds18b20#5da00d550b23582d30931ed847f6967a66388e70",
+        "test MyFirstExtensions": "github:devshop2019/test-myfirstextensions#a1f2cf58b962691ec7adac66ef00f150221d1fea"
+    },
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
